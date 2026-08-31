@@ -1,14 +1,178 @@
- <!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-BR">
+
 <head>
-     <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>roupas da juh</title>
+
+    <title>Roupas da Ana | Moda e Estilo</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>  
-<h1>roupas da ana</h1>
-<p> estou compartilhando conhecimento de roupas</p>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+        <div class="logo">
+            <span>ROUPAS</span> DA ANA
+        </div>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#dicas">Dicas</a>
+            <a href="#tendencias">Tendências</a>
+            <a href="#sobre">Sobre</a>
+        </nav>
+    </header>
+
+
+    <!-- PÁGINA INICIAL -->
+    <main>
+
+        <section id="inicio" class="hero">
+
+            <div class="hero-text">
+                <p class="destaque">MODA • ESTILO • CRIATIVIDADE</p>
+
+                <h1>
+                    Vista sua<br>
+                    <span>personalidade.</span>
+                </h1>
+
+                <p>
+                    Estou compartilhando conhecimentos sobre roupas,
+                    combinações e dicas para você descobrir seu próprio estilo.
+                </p>
+
+                <a href="#dicas" class="botao">VER MINHAS DICAS</a>
+            </div>
+
+            <div class="hero-decoration">
+                <div class="circulo">✦</div>
+            </div>
+
+        </section>
+
+
+        <!-- DICAS -->
+        <section id="dicas" class="secao">
+
+            <p class="titulo-pequeno">MEU CONTEÚDO</p>
+
+            <h2>Minhas primeiras dicas</h2>
+
+            <p class="introducao">
+                Boa! Vou falar sobre roupas, compartilhar um pouco do meu
+                conhecimento e também responder dúvidas sobre moda e estilo.
+            </p>
+
+
+            <div class="cards">
+
+                <article class="card">
+                    <div class="numero">01</div>
+                    <h3>Combine as cores</h3>
+                    <p>
+                        Aprenda a combinar diferentes cores para criar
+                        looks interessantes e criativos.
+                    </p>
+                    <button onclick="mostrarMensagem('As cores podem transformar completamente um look! Experimente combinações diferentes.')">
+                        SABER MAIS
+                    </button>
+                </article>
+
+
+                <article class="card card-vermelho">
+                    <div class="numero">02</div>
+                    <h3>Encontre seu estilo</h3>
+                    <p>
+                        A moda também é uma forma de mostrar quem você é.
+                        Descubra quais estilos combinam com você.
+                    </p>
+                    <button onclick="mostrarMensagem('Não existe apenas um jeito certo de se vestir. O mais importante é encontrar um estilo que você goste!')">
+                        SABER MAIS
+                    </button>
+                </article>
+
+
+                <article class="card">
+                    <div class="numero">03</div>
+                    <h3>Use a criatividade</h3>
+                    <p>
+                        Uma mesma peça pode fazer parte de vários looks.
+                        Use sua criatividade para experimentar.
+                    </p>
+                    <button onclick="mostrarMensagem('Tente usar uma peça de maneiras diferentes e crie novas combinações!')">
+                        SABER MAIS
+                    </button>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- TENDÊNCIAS -->
+        <section id="tendencias" class="tendencias">
+
+            <div>
+                <p class="titulo-pequeno">FASHION</p>
+
+                <h2>Moda é<br><span>expressão.</span></h2>
+
+                <p>
+                    Roupas podem ser uma maneira divertida de expressar
+                    criatividade, personalidade e diferentes ideias.
+                </p>
+
+                <a href="#sobre" class="botao botao-preto">CONHEÇA A PÁGINA</a>
+            </div>
+
+            <div class="frase">
+                <span>✦</span>
+                <p>
+                    "Seu estilo<br>
+                    conta uma história."
+                </p>
+            </div>
+
+        </section>
+
+
+        <!-- SOBRE -->
+        <section id="sobre" class="sobre">
+
+            <p class="titulo-pequeno">SOBRE A PÁGINA</p>
+
+            <h2>Um espaço para<br><span>falar de moda.</span></h2>
+
+            <p>
+                Esta página foi criada para compartilhar ideias,
+                conhecimentos e dicas sobre roupas e moda de uma forma
+                criativa e divertida.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>ROUPAS DA ANA</p>
+        <p>Projeto de Educação Digital • 2026</p>
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script>
+
+        function mostrarMensagem(mensagem) {
+            alert(mensagem);
+        }
+
+    </script>
+
 </body>
-<html>
-<h2> minhas primeiras dicas</h2>
-<p>boa boa, vou falar sobre roupas compartilhar um pouco de conhecimentro e duvidas tambem </p>
+</html>
